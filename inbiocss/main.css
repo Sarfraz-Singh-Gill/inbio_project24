@@ -1,0 +1,626 @@
+section#home h1 span{
+    -webkit-text-stroke-color: var( --primary-color);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;    
+    font-size: 71px;
+    letter-spacing: 1px;
+}
+
+section#home p.home-welcome{
+    color: var(--lighter-white);
+    letter-spacing: 3px;
+    margin-top: 6rem;
+    text-transform: uppercase;
+}
+
+section#home h1 {
+    color: var(--white-color);
+    font-size: 3.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+section#home p.home-intro,div.home-findme.flex h3 {
+    color: var(--lighter-white);
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    padding-right: 13rem;
+    padding-bottom: 2rem;
+
+}
+div.home-findme.flex{
+    margin-top: 5rem;
+    width: auto;
+    justify-content: space-around;
+}
+div.home-findme.flex div.flex{
+    justify-content: space-between;
+    width: 75%;
+}
+.socials-home i, div.skills-home i{
+    color: var(--lighter-white);
+    font-size: 1.4rem;
+    box-shadow: var(--shadow-1);
+    border-radius: 5px;
+    padding: 1.3rem;
+    transition: all 0.5s ease-in-out;    
+}
+.socials-home i:hover{
+    background-color: rgb(27, 27, 27);
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out;
+}
+
+section#home img{
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+}
+.thumbnail-img {
+    width: 40%;
+    position: relative;
+}
+.thumbnail-img:before {
+    content: "";
+    position: absolute;
+    height: 83%;
+    width: 100%;
+    background-color: var(--background-color-1);
+    bottom: 0;
+    box-shadow: var(--shadow-1);
+}
+section#home div.welcome-text{
+    width: 70%;
+    align-items: left;
+}
+/* home section end */
+
+section#features p,section#pricing div.pricing-heading p{
+    color: var(--color-subtitle);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+section#features h1,section#pricing h1 {
+    color: var(--lighter-white);
+    font-size: 3.6rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+}
+.feature-box {
+    background-color: var(--background-color-1);
+    border-radius: 10px;
+    box-shadow: var(--shadow-1);
+    min-height: 21rem;
+    width: 25rem;
+    text-align: left;
+    margin-bottom: 3rem;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.feature-box:hover .feature-box-content {
+    /* background-color: transparent; */
+    transform: translateY(-1rem);
+    transition: all 0.3s ease-in-out;
+}
+.feature-box:hover  {
+    background: linear-gradient(to right bottom, #222325, #16181c); 
+}
+.feature-box:hover div.feature-box-content h4,span{
+    background-color: transparent;
+}
+section#features div.flex-wrap{
+    justify-content: space-between;
+}
+.feature-box-content{
+    margin:50px 30px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+div.feature-box i {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+div.feature-box h4{
+    color: var(--lighter-white);
+    font-size: 26px;
+}
+div.feature-box span{
+    color: var(--lighter-white) ;
+}
+
+.feature-box:after{
+    content: "\f061";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.feature-box:hover:after{
+    opacity: 1;
+    transform: translateY(-1rem);
+    transition: all 0.5s ease-in-out;
+}
+/* features section end */
+
+section#portfolio div.flex-nowrap{
+    justify-content: center;
+}
+
+section#portfolio p{
+    color: var(--primary-color);
+    font-family: var(--secondry-font);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+section#portfolio h2{
+    color: var(--lighter-white);
+    font-size: 3rem;
+    margin-top: 7px;
+    margin-left: 4.5rem;
+}
+
+div.flex-wrap{
+    justify-content: space-between;
+}
+
+.portfolio-box{
+    color: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    width: 21rem;
+    height: 23rem;
+    border-radius: 20px;
+    padding: 35px;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+section#portfolio img{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+.image-container-portfolio {
+    overflow: hidden;
+    width: 20rem;
+    height: 14rem;
+    border-radius: 10px;
+    margin-left: 0.4rem;
+}
+
+div.portfolio-box:hover{
+    background: linear-gradient(to right bottom, #222325, #16181c);
+    transition: all 0.5s ease-in-out;
+}
+div.portfolio-box:hover img{
+    transform: scale(1.08);
+    transition: all 0.5s ease-in-out;
+}
+
+.gallery-like-portfolio{
+    padding-top: 1rem;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+section#portfolio div.gallery-like-portfolio span{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+section#portfolio div.like-button span {
+    color: var(--lighter-white);
+    font-size: 0.8rem;
+}
+section#portfolio div.like-button i{
+    color: black;
+    font-size: 0.8rem;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+.like-button{
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background-color: transparent;
+}
+div.like-button:hover{
+    border-radius:7px ;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+section#portfolio div.like-button:hover i{
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+section#portfolio h4{
+    color: var(--lighter-white);
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    margin-bottom: 0rem;   
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+section#portfolio h4:after{
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    opacity: 0;
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+    margin-left: 10px;
+}
+section#portfolio h4:hover{
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+section#portfolio h4:hover:after{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+/* portfolio section end */
+
+section#resume h1 {
+    color: var(--lighter-white);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+section#resume p {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+section#resume form{
+    justify-content: center;
+}
+section#resume input{
+    padding: 1.2rem;
+    border-radius: 32px;
+    color: var(--lighter-white);
+    box-shadow: var(--shadow-1);
+    transition: all 0.3s ease-in-out;
+}
+section#resume input:hover{
+    background: linear-gradient(to right bottom, #222325, #16181c);
+    transform: translateY(-6px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* resume section ends */
+
+.pricing-heading{
+    position: sticky;   
+    width: 30%;
+    top: 0;
+    float: right;
+}
+.pricing-table-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.radiobutton{
+    background-color: var(--background-color);
+    width: 55%;
+    box-shadow: var(--shadow-1);
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.static-plan, .standard-plan, .premium-plan{
+    padding: 1.7rem;
+    opacity: 1;
+}
+.radiobutton input#static:checked + .static-plan{
+    opacity: 1;
+}
+.radiobutton input#standard:checked + .static-plan{
+    opacity: 1 !important;
+}
+.radiobutton input#premium:checked + .static-plan{
+    opacity: 1;
+}
+.plan-choose{
+    padding: 2rem 4.97rem;
+}
+.plan-choose input{
+    height: 0;
+    width: 0;
+}
+.plan-choose label{
+    font-size: 1rem;
+    color: var(--lighter-white);
+}
+.pricing-plans{
+    display: flex;
+    box-shadow: var(--shadow-1);
+    border-radius: 6px;
+}
+.pricing-table-heading h3{
+    color: var(--lighter-white);
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+}
+.pricing-table-heading span{
+    color: var(--color-body);
+    font-size: 1rem;
+}
+.money {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    background-color: var(--background-color);
+    box-shadow: var(--shadow-1);
+    border-radius: 8px;
+}
+section#pricing div.static-plan p.pricing-description{
+    color: var(--color-body);
+    font-size: 1.2rem;
+    margin-top: 0rem;
+}
+span.pricing-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--lighter-white);
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+section#pricing i{
+    margin-right: 0.3rem;
+}
+.order {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1.3rem 0rem;
+    background-color: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    border-radius: 10px;
+    color: var(--color-subtitle);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 1rem;
+    font-family: var(--secondry-font)
+}
+.order i{
+    margin-left: 0.3rem;
+    align-content: center;
+    background-color: transparent;
+}
+.order:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    transform: translateY(-0.3rem);
+    color: var(--color-subtitle);
+    transition: all 0.5s ease-in-out;
+}
+.timeline{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
+.timeline span{
+    color: #9ca5b1;
+    font-size: 0.9rem;
+    margin-right: 0.7rem;
+}
+/* pricing section ends */
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#contacts .contact-heading p{
+    color: var(--primary-color);
+    font-family: var(--secondry-font);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+section#contacts h1{
+    color: var(--lighter-white);
+    font-size: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+.contact-box{
+    color: var(--background-color);
+    box-shadow: var(--shadow-1);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30%;
+}
+section#contacts img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+section#contacts div.contact-thumbnail{
+    width: auto;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.contact-box:hover .contact-thumbnail> img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.contact-box h4{
+    color: var(--lighter-white);
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+.contact-box span{
+    color: var(--color-body);
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+}
+.contact-box p{
+    color: var(--color-body);
+    font-size: 1.1rem;
+}
+.contact-box .contact a{
+    color: var(--lighter-white);
+    position: relative;
+}
+.contact-box .contact a:before{
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 0;
+    height: 1px;
+    margin: 0 auto;
+}
+.contact-box .contact a:hover{
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+.contact-box .contact a:hover:before{
+    width: 100%;
+    opacity: 1;
+}
+.socials-contact{
+    margin-top: 2rem;
+}
+.socials-contact p{
+    color: var(--color-body);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.socials-contact i{
+    color: var(--lighter-white);
+    font-size: 1.4rem;
+    box-shadow: var(--shadow-1);
+    border-radius: 7px;
+    padding: 1.3rem;
+    transition: all 0.5s ease-in-out; 
+    margin-top: 1rem;
+}
+.socials-contact .flex i:hover{
+    background-color: rgb(27, 27, 27);
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out;
+    color: var(--primary-color);
+}
+.socials-contact .flex{
+    width: 65%;
+    justify-content: space-between;
+}
+section#contacts .flex-wrap{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contact-form{
+    box-shadow: var(--shadow-1);
+    width: 58.5%;
+    padding: 1rem;
+    border-radius: 7px;
+}
+section#contacts form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.3rem;
+    margin-top: 1rem;
+}
+section#contacts label{
+    font-size: 12px;
+    color: #a0a8b3;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+    margin-bottom: 14px;
+    text-align: left;
+    display: block;
+}
+section#contacts .contact-name,.contact-number{
+    flex: 0 0 50%;
+    min-width: 50%;
+}
+section#contacts .contact-email,.contact-subject{
+    flex: 0 0 100%;
+    min-width: 100%;
+}
+section#contacts textarea{
+    height: 12rem;
+    width: 41rem;
+    resize: none;
+}
+section#contacts input, textarea {
+    background-color: #191b1e;
+    border-radius: 6px;
+    height: 55px;
+    border: 2px solid #191b1e;
+    padding: 0 15px;
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: var(--lighter-white) ;
+    box-shadow: var(--inner-shadow);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+input#name , input#number{
+    width: 80%;
+}
+input#email, input#subject{
+    width: 90%;
+}
+section#contacts input[type="submit"]{
+    width: 95%;
+    margin-top: 1rem;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: var(--shadow-1) !important;
+    font-size: 14px;
+    border: 0 none !important;
+    height: 3.4rem;
+    transition: all 0.5s ease-in-out;
+}
+input[type="submit"]:hover{
+    transform: translateY(-0.5rem);
+    transition: all 0.5s ease-in-out;
+}
+section#contacts form input:focus, textarea:focus{
+    outline: 2px solid var(--primary-color);
+    border: 0;
+}
+
+
+
+
+
+
