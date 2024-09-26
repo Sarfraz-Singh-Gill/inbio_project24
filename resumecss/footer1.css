@@ -1,0 +1,26 @@
+.bg-ftr{
+    /* background-color: rgb(80, 80, 80); */
+    border-radius: 0px 0px 45px 45px;
+}
+
+.contact-place{
+    font-size: 15px;
+    padding: 10px;
+    margin: -12px 0px 0px 25px;
+}
+
+.copy-place{
+    font-size: 14px;
+    justify-content: right;
+    margin: -10px 22px 0px 0px;
+
+}
+footer hr{
+    border-top: 1px solid;
+    opacity: 0.5;
+}
+
+
+/* footer> div > a#back{
+    justify-content: center;
+} */

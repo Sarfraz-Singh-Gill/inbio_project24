@@ -1,0 +1,25 @@
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-item50{
+    width:50%;
+}
+
+.col-item40{
+    width:40% ;
+}
+
+.col-item60{
+    width:60% ;
+}
+.col-item30{
+    width: 30%;
+}
+.col-item70{
+    width: 70%;
+}
+.justify-content-spcbtwn{
+    justify-content: space-between;
+}

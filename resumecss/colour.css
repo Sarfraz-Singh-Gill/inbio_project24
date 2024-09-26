@@ -1,0 +1,21 @@
+:root{
+    --whitecolor: white;
+    --blackcolor: black;
+    --backgroundColor: #222222;
+}
+
+.bg-color{
+    background-color: var(--backgroundColor);
+}
+main p, footer a{
+    color: #d5d5d5;
+}
+
+main section#contact p.font-size17{
+    color: white;
+}
+
+
+
+
+

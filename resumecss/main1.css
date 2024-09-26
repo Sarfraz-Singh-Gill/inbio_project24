@@ -1,0 +1,206 @@
+.main-front-photo {
+    display: flex;
+    justify-content: right;
+    padding: 29px 0px 0px 0px;
+    margin: 26px 0px 0px 0px;
+}
+
+.image-man{
+    border: 16px solid #444;
+    background-color: #444;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .8);
+    border-radius: 100%;
+}
+
+.main-aboutme-text {
+    display: flex;
+    justify-content: left;
+    margin: 100px 0px 0px 36px;
+    flex-direction: column;
+}
+
+main div[data-type="web"] {
+    font-size: 14px;
+    color: #a3a3a3;
+    margin: 0px 0px -13px 0px;
+}
+
+main div[data-type="name"]{
+    font-size: 20px;
+    margin: -15px 0px 0px 0px;
+}
+
+main div[data-type="boutme"] {
+    font-size: 15px;
+    margin: -16px 0px 0px 0px;
+    padding: 0px 190px 0px 0px;
+}
+
+section#aboutme div.col-item60.main-aboutme-text a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .78);
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    height: 2.8rem;
+    padding-left: 31px;
+    line-height: 41px;
+}
+section#aboutme div.col-item60.main-aboutme-text div.flexbox a:first-child{
+    width: 130px;
+    border: 2px solid #007ced;
+}
+section#aboutme div.col-item60.main-aboutme-text div.flexbox a:first-child:hover, .main-sendmsg:hover{
+    cursor: pointer;
+    background-color: #007ced;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+section#aboutme div.col-item60.main-aboutme-text div.flexbox a:last-child{
+    width: 91px;
+}
+section#aboutme div.col-item60.main-aboutme-text div.flexbox a:last-child:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #161616;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+section#services i, section#contact i {
+    color: #007ced;
+    padding: 17px 10px 5px 0px;
+    font-size: 30px;
+    width: 44px;
+}
+.service-text-align {
+    padding: 0px 0px 4px 10px;
+}
+.box-skill {
+    border: 2px solid #444;
+    background-color: #282828;
+    border-radius: 8px;
+    font-size: 14px;
+    min-height: 100px;
+    /* width: 300px; */
+    position: relative;
+    padding: 1rem;
+    flex: 1 1 42%;
+}
+.skill-scroll{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.box-fun{
+    border: 2px solid #444;
+    background-color: #333;
+    border-radius: 10px;
+    height: 125px;
+    padding: 25px 10px;
+    width: 220px;
+    text-align: center;
+
+}
+main section#fun i{
+    color:#007ced ;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+main section#fun span{
+    color: #d5d5d5;
+    font-size: 48px;
+    display: block;
+    margin: 15px 0 17px;
+}
+
+section#fun, section#services, section#skills, section#aboutme, section#contact {
+    padding-bottom: 65px;
+}
+
+main iframe.map-main{
+    width: 100%;
+    height: 180px;
+    margin: 15px 0 30px;
+}
+
+section#contact span{
+    font-size: 13px;
+    padding-top: 0px;
+    color: #d5d5d5;
+}
+
+form div.flexbox input{
+    color: #eee;
+    background-color: transparent;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 10px 25px 10px 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form div.flexbox textarea{
+    color: #eee;
+    background-color: transparent;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 10px 25px 10px 12px;
+    resize: none;
+    min-height: 9rem ;
+    width: 100%;
+}
+
+div.form-box{
+    justify-content: start;
+}
+input.main-sendmsg{
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .78);
+    padding: .8em 2.1em;
+    font-size: 1em;
+    font-weight: 400;
+    border: 2px solid #007ced;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+div.main-text-margin{
+    margin-left: 7rem;
+}
+ form h2{
+    padding-bottom:2.5rem;
+}
+
+form img{
+    height: 4rem;
+    margin-top: 2rem;
+    border: 1px solid;
+    width: 100%;
+}
+.user-img {
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -44px;
+    margin-left: -32px;
+    width: 80px;
+}
+
+.user-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+
+}
+
+
+
+
