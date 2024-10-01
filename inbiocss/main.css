@@ -101,7 +101,6 @@ section#features h1,section#pricing h1 {
     transition: all 0.5s ease-in-out;
 }
 .feature-box:hover .feature-box-content {
-    /* background-color: transparent; */
     transform: translateY(-1rem);
     transition: all 0.3s ease-in-out;
 }
@@ -317,7 +316,7 @@ section#resume .resume-button{
     position: sticky;   
     width: 30%;
     top: 0;
-    float: right;
+    float: left;
 }
 .pricing-table-top{
     display: flex;
@@ -333,6 +332,7 @@ section#resume .resume-button{
     height: auto;
     display: flex;
     flex-direction: column;
+    float: right;
 }
 .static-plan, .standard-plan, .premium-plan{
     padding: 1.7rem;

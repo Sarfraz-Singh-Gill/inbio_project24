@@ -22,9 +22,14 @@ hr{
     height: 2px;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    float: left;
 }
 img{
     background-color: transparent;
+}
+section#pricing,section#contacts,section#portfolio{
+    float: left;
+    width: 100%;
 }
 @media screen and (max-width:767px) {
     section#features .flex-wrap{
