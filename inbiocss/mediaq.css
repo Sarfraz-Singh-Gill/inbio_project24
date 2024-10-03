@@ -21,11 +21,11 @@
     }
     section#features div.flex-wrap div.feature-box{
         scroll-snap-align: start;
-        min-width: 72%;
+        min-width: 80%;
         height: 200px;
     }
     section#features div.flex-wrap div.feature-box-content{
-        margin-top: 15px;
+        margin-top: 19px;
         margin-left: 26px;
     }
     section#features div.flex-wrap div.feature-box-content h4{
