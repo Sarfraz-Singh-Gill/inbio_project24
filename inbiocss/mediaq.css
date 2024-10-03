@@ -21,8 +21,15 @@
     }
     section#features div.flex-wrap div.feature-box{
         scroll-snap-align: start;
-        min-width: 60%;
+        min-width: 72%;
         height: 200px;
+    }
+    section#features div.flex-wrap div.feature-box-content{
+        margin-top: 15px;
+        margin-left: 26px;
+    }
+    section#features div.flex-wrap div.feature-box-content h4{
+        margin: 10px 0px
     }
     body h1,h2,h3,h4,h5,h6{
         font-size: 1.8rem !important;
