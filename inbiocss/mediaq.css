@@ -11,6 +11,34 @@
         display: block;
         justify-content: center;
     }
+    section#home.flex-nowrap{
+        flex-wrap: wrap;
+    }
+    section#home p.home-intro{
+        padding: 0;
+    }
+    div.home-findme.flex{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    div.home-findme.flex div.flex {
+        justify-content: space-around;
+        width: 100%;
+        gap: 2rem;
+    }
+    section#home p.home-intro, div.home-findme.flex h3 {
+        margin-top: 2rem;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    .thumbnail-img {
+        width: 74%;
+        position: relative;
+        margin-top: 2rem;
+    }
 
     section#features .flex-wrap{
         scroll-snap-type: x mandatory;
